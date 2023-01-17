@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tambah Data Barang</title>
+
+        <style>
+            fieldset {
+                width: 400px;
+                margin: auto;
+            }
+        </style>
+        
+    </head>
+    <body>
+       <fieldset>
+            <legend>Tambah Data</legend>
+
+            <form action="tambah_proses.php" method="post">
+                <input type="text" name="id_barang" placeholder="ID Barang" size="40px">
+                <br><br>
+                <input type="text" name="kategori" placeholder="Kategori" size="40px">
+                <br><br>
+                <input type="text" name="nama_barang" placeholder="Nama Barang" size="40px">
+                <br><br>
+                <input type="text" name="harga" placeholder="Harga" size="40px">
+                <br><br>
+                <input type="text" name="stok" placeholder="Stok" size="40px">
+                <br><br>
+                <input type="text" name="supplier" placeholder="Suplier" size="40px">
+                <br><br>
+                <button type="submit" name="submit">Simpan</button>
+                <button type="reset" name="reset">Reset</button>
+            </form>
+       </fieldset> 
+    </body>
+</html>
