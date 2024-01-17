@@ -2,7 +2,7 @@
 # CRUD
 ![logo](https://course-net.com/blog/wp-content/uploads/2022/10/61c323afb777801522775611_CRUD-Preview.png)
 
-## A. Pengertian Database
+
 CRUD adalah konsep dasar dalam pengembangan aplikasi dan sistem basis data dengan empat operasi dasar yang dapat dilakukan terhadap data.
 
 CRUD adalah singkatan dari istilah Create, Read, Update dan Delete.
