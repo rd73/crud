@@ -40,10 +40,10 @@ Perlu kamu ingat bahwa catatan adalah baris dan kolom disebut dengan atribut. Se
 
 ## B. Praktik 
 1.	Buat file baru dan beri nama “tambah_form.html” dan ketikkan skrip program berikut:
- 
-#### <!DOCTYPE html>
-#### <html>
-#### <head>
+" 
+<!DOCTYPE html>
+<html>
+<head>
 	<title>Data User</title>
 
 	<style>
@@ -52,8 +52,8 @@ Perlu kamu ingat bahwa catatan adalah baris dan kolom disebut dengan atribut. Se
                     	margin:auto;
                     	}   
     </style>
-#### </head>
-#### <body>
+</head>
+<body>
 
 	<!--membungkus tampilan Read Data-->
 	<fieldset >
