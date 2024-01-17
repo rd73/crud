@@ -40,7 +40,7 @@ Perlu kamu ingat bahwa catatan adalah baris dan kolom disebut dengan atribut. Se
 
 ## B. Praktik 
 1.	Buat file baru dan beri nama “tambah_form.html” dan ketikkan skrip program berikut:
-" 
+#### 
 <!DOCTYPE html>
 <html>
 <head>
