@@ -40,10 +40,10 @@ Perlu kamu ingat bahwa catatan adalah baris dan kolom disebut dengan atribut. Se
 
 ## B. Praktik 
 1.	Buat file baru dan beri nama “tambah_form.html” dan ketikkan skrip program berikut:
-#### 
-<!DOCTYPE html>
-<html>
-<head>
+ 
+#### <!DOCTYPE html>
+#### <html>
+#### <head>
 	<title>Data User</title>
 
 	<style>
@@ -52,8 +52,8 @@ Perlu kamu ingat bahwa catatan adalah baris dan kolom disebut dengan atribut. Se
                     	margin:auto;
                     	}   
     </style>
-</head>
-<body>
+#### </head>
+#### <body>
 
 	<!--membungkus tampilan Read Data-->
 	<fieldset >
@@ -212,9 +212,9 @@ Ketika sedang melakukan proses update, kamu harus menentukan tabel target dan ko
 ## B. Praktik
 1.	Buat file baru dan beri nama “edit_form.php” dan ketikkan skrip program berikut :
 
-#### <!DOCTYPE html>
-#### <html>
-####     <head>
+
+<html>
+     <head>
         <title>Form Edit Data</title>
 
 		<style>
@@ -274,7 +274,7 @@ Ketika sedang melakukan proses update, kamu harus menentukan tabel target dan ko
         ?>
 	</fieldset>
     </body>
-#### </html>
+</html>
 
 
 2.	Selanjutnya buat lagi file baru dengan nama “edit_proses.php” dan ketikkan skrip program berikut :
