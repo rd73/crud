@@ -41,9 +41,9 @@ Perlu kamu ingat bahwa catatan adalah baris dan kolom disebut dengan atribut. Se
 ## B. Praktik 
 1.	Buat file baru dan beri nama “tambah_form.html” dan ketikkan skrip program berikut:
  
-#### <!DOCTYPE html>
-#### <html>
-#### <head>
+#### < !DOCTYPE html >
+#### < html >
+#### < head >
 	<title>Data User</title>
 
 	<style>
@@ -52,8 +52,8 @@ Perlu kamu ingat bahwa catatan adalah baris dan kolom disebut dengan atribut. Se
                     	margin:auto;
                     	}   
     </style>
-#### </head>
-#### <body>
+#### < /head >
+#### < body >
 
 	<!--membungkus tampilan Read Data-->
 	<fieldset >
@@ -76,8 +76,8 @@ Perlu kamu ingat bahwa catatan adalah baris dan kolom disebut dengan atribut. Se
         </form>
 
     </fieldset>
-#### </body>
-#### </html>
+#### < /body >
+#### < /html >
 
 
 2.	Setelah membuat form, buat lagi file baru dengan nama “tambah_proses.php” dan ketikkan skrip berikut :
@@ -109,9 +109,9 @@ Nah, fungsi read hampir sama dengan fungsi search (pencarian), yang mana memungk
 ## B. Praktik
 1.	Buat file baru dan beri nama “index.php” dan ketikkan skrip program berikut :
 
-#### <!DOCTYPE html>
-#### <html>
-#### <head>
+#### < !DOCTYPE html >
+#### < html >
+#### < head >
 	<title>Tampil Data</title>
 
 		<style>
@@ -121,8 +121,8 @@ Nah, fungsi read hampir sama dengan fungsi search (pencarian), yang mana memungk
                     	}   
    	 </style>
 
-#### </head>
-#### <body>
+#### < /head >
+#### < body >
 	<fieldset >
         <!--Judul pada fieldset-->
         <legend align="center">Data Produk</legend>
@@ -197,7 +197,7 @@ Nah, fungsi read hampir sama dengan fungsi search (pencarian), yang mana memungk
 #### </tbody>
 #### </table>
 #### </fieldset>
-#### </body>
+#### </>
 #### </html>
 
 
@@ -212,9 +212,9 @@ Ketika sedang melakukan proses update, kamu harus menentukan tabel target dan ko
 ## B. Praktik
 1.	Buat file baru dan beri nama “edit_form.php” dan ketikkan skrip program berikut :
 
-
-<html>
-     <head>
+#### <!DOCTYPE html>
+#### <html>
+####     <head>
         <title>Form Edit Data</title>
 
 		<style>
@@ -274,7 +274,7 @@ Ketika sedang melakukan proses update, kamu harus menentukan tabel target dan ko
         ?>
 	</fieldset>
     </body>
-</html>
+#### </html>
 
 
 2.	Selanjutnya buat lagi file baru dengan nama “edit_proses.php” dan ketikkan skrip program berikut :
